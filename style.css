@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h1 {
+  color: darkblue;
+}
+#result {
+  margin: 10px 0;
+  padding: 10px;
+  background: #eef;
+}
+#diagnostics {
+  font-size: 0.9em;
+  color: #333;
+}
+table {
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+th {
+  background: #ddd;
+}
+td, th {
+  padding: 6px 10px;
+}
