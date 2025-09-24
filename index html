@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UPE Decomposer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>UPE Decomposer — Unified Prime Equation</h1>
+  <p>Enter an even integer and UPE locates a Goldbach pair (p, q) near the midpoint.</p>
+
+  <label>Even integer E (decimal): </label>
+  <input id="evenInput" type="text" size="30">
+  <button id="findBtn">Find Goldbach Pair (UPE)</button>
+  <button id="clearBtn">Clear</button>
+
+  <h2>Result</h2>
+  <div id="result"></div>
+
+  <h2>UPE Diagnostics</h2>
+  <div id="diagnostics"></div>
+</body>
+</html>
